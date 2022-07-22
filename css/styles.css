@@ -1,0 +1,145 @@
+:root {
+  --accent-color: #2196f3;
+  --normal-color: #FFFFFF;
+  --accent-font: raleway;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  color: #212121;
+}
+
+/*-----------------common--------------------*/
+
+.logo {
+  font-family: var(--accent-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.logo-dark {
+  color: #000000;
+}
+
+.logo-light {
+  color: var(--normal-color);
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.list {
+  list-style: none;
+}
+/* ----------header----------- */
+
+.otherpages-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.contacts-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* ---------------main------------------ */
+/* ----------------hero----------------- */
+
+.hero {
+  background-color: #2f303a;
+}
+/* в ТЗ до ДЗ не бачив що потрібно задавати колір
+фону але тут задав його щоб було видно стилі лого
+та контактів */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--normal-color);
+}
+
+.hero-btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--normal-color);
+  background-color: var(--accent-color);
+  border: none;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: inherit;
+  background-color: #f5f4fa;
+}
+
+/* ----------------benefits------------------- */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.benefits-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;}
+
+.benefits-ph {
+  font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ----------------footer-------------------- */
+.footsite {
+  background-color: #2f303a;
+}
+/* в ТЗ до ДЗ не бачив що потрібно задавати колір
+фону але тут задав його щоб було видно стилі лого
+та контактів */
+
+.addressmap-link {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--normal-color);
+}
+
+.mail-and-tel-link {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}

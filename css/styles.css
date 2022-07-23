@@ -2,14 +2,14 @@
 :root {
   --accent-color: #2196f3;
   --normal-color: #ffffff;
+  --primary-color: #212121;
   --minor-color: #757575;
   --secondary-color: #f5f4fa;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-color);
 }
 
 .logo {
@@ -17,6 +17,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
 }
@@ -35,7 +36,6 @@ body {
 
 .link {
   text-decoration: none;
-  font-style: normal;
   font-size: 14px;
 }
 
@@ -74,6 +74,7 @@ body {
 }
 
 .contacts-link {
+  font-style: normal;
   color: var(--minor-color);
 }
 
@@ -100,13 +101,13 @@ body {
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--normal-color);
-  background-color: var(--accent-color);
+  color: inherit;
+  background-color: var(--secondary-color);
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: inherit;
-  background-color: var(--secondary-color);
+  color: var(--normal-color);
+  background-color: var(--accent-color);
 }
 
 /* -----------section benefits-------------- */
@@ -114,12 +115,14 @@ body {
 .benefits-subtitle {
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .benefits-ph {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--minor-color);
 }
 
@@ -129,6 +132,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* ----------------section our-team ----------*/
@@ -140,6 +144,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .our-team-subtitle {
@@ -147,12 +152,14 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .our-team-ph {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--minor-color);
 }
 
@@ -162,12 +169,16 @@ body {
 }
 
 .addressmap-link {
+  font-style: normal;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--normal-color);
 }
 
 .mail-and-tel-link {
+  font-style: normal;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -175,6 +186,7 @@ body {
 .filters-button {
   font-weight: 500;
   line-height: 1.63;
+  letter-spacing: 0.03em;
   color: inherit;
   background-color: var(--secondary-color);
 }
@@ -186,6 +198,7 @@ body {
 }
 
 .examples-subtitle {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -194,5 +207,6 @@ body {
 .examples-ph {
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--minor-color);
 }

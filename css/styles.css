@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -16,7 +17,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
 }
@@ -46,7 +46,6 @@ body {
 
 .button {
   font-family: inherit;
-  text-align: center;
   border: none;
   cursor: pointer;
   font-size: 16px;
@@ -115,14 +114,12 @@ body {
 .benefits-subtitle {
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .benefits-ph {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--minor-color);
 }
 
@@ -132,7 +129,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* ----------------section our-team ----------*/
@@ -144,7 +140,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .our-team-subtitle {
@@ -152,14 +147,12 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .our-team-ph {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--minor-color);
 }
 
@@ -170,13 +163,11 @@ body {
 
 .addressmap-link {
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--normal-color);
 }
 
 .mail-and-tel-link {
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -184,7 +175,6 @@ body {
 .filters-button {
   font-weight: 500;
   line-height: 1.63;
-  letter-spacing: 0.03em;
   color: inherit;
   background-color: var(--secondary-color);
 }
@@ -204,6 +194,5 @@ body {
 .examples-ph {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: var(--minor-color);
 }

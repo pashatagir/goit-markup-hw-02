@@ -101,13 +101,13 @@ body {
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: inherit;
-  background-color: var(--secondary-color);
+  color: var(--normal-color);
+  background-color: var(--accent-color);
 }
 .hero-button:hover,
 .hero-button:focus {
   color: var(--normal-color);
-  background-color: var(--accent-color);
+  background-color: #188ce8;
 }
 
 /* -----------section benefits-------------- */
@@ -198,7 +198,6 @@ body {
 }
 
 .examples-subtitle {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
